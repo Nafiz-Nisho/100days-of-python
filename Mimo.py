@@ -429,3 +429,6 @@ get_winner(top_players)
 
 for_GIT = [ "names"]
 print(for_GIT)
+
+score = ["100"]
+print(score)
