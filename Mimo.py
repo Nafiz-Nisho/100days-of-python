@@ -432,3 +432,6 @@ print(for_GIT)
 
 score = ["100"]
 print(score)
+
+names = '1000'
+print(names)
