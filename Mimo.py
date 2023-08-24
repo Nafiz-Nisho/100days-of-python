@@ -426,3 +426,6 @@ def get_winner(top_players):
 top_players = ["Jay", "Meg", "Cy"]
 get_winner(top_players)
 # output: Game winner: Jay
+
+for_GIT = [ "names"]
+print(for_GIT)
