@@ -6,7 +6,7 @@
 # def info(age , roll):
 #   return age + roll
 
-# how to call argument for example
+# whare is Argument?
 # print(info("18" ,"122743" [This called Argument > ] ))
 
 
