@@ -1,6 +1,15 @@
 
 # colon : is call indented line/blocks 
 
+# What is argument?
+# example: 
+# def info(age , roll):
+#   return age + roll
+
+# how to call argument for example
+# print(info("18" ,"122743" [This called Argument > ] ))
+
+
 # password = 980790
 # old_password = "8lk29"
 
