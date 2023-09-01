@@ -436,7 +436,9 @@ Player_List = ["Jay", "Meg", "Cy"]
 result = get_winner(Player_List)
 print(f"Winner Player is : {result}")
 
-# Function With Loops
+# Function With Loops 
+
+# Whil()
 def id_number(count):
   pen = 100
   while pen == count:
@@ -448,5 +450,30 @@ def id_number(count):
 # used function
 # for user
 id_number(100)
-#output = 5
+#output =  Your id Number is : 100
 
+# For() used range
+def show_notifications(messages):
+ for i in range(messages):
+  print("Failed to send message")
+
+# using function
+show_notifications(3)
+
+# output = (3 time)
+# Failed to send message
+# Failed to send message
+# Failed to send message
+
+# Best Example
+def halve_prices(cart):
+ for price in cart:
+  print(f"New price: {price/2}")
+
+# using function
+cart_list = [5, 20, 8]
+halve_prices(cart_list)
+# Output:
+# New price: 2.5
+# New price: 10.0
+# New price: 4.0
