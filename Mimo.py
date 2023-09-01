@@ -437,14 +437,16 @@ result = get_winner(Player_List)
 print(f"Winner Player is : {result}")
 
 # Function With Loops
-def my_Pen(count_pen):
-  pen = 1
-  while pen <= count_pen:
+def id_number(count):
+  pen = 100
+  while pen == count:
     # condition is True
-    print(pen)
+    print( f" Your id Number is : {pen}")
     # increment >>
     pen +=1
 
 # used function
-my_Pen(5)
+# for user
+id_number(100)
 #output = 5
+
