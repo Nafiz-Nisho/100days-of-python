@@ -425,13 +425,26 @@ print(gift_With_card)
 # output = 70
 
 # function with list
-
 # using index[] in function
-# example : 1 
-def get_winner(top_players):
-  winner = top_players[0]
-  print(f"Game winner: {winner}")
 
-top_players = ["Jay", "Meg", "Cy"]
-get_winner(top_players)
-# output: Game winner: Jay
+# example : 1 
+def get_winner(top_player):
+  Player = top_player[0]
+  return Player
+
+Player_List = ["Jay", "Meg", "Cy"]
+result = get_winner(Player_List)
+print(f"Winner Player is : {result}")
+
+# Function With Loops
+def my_Pen(count_pen):
+  pen = 1
+  while pen <= count_pen:
+    # condition is True
+    print(pen)
+    # increment >>
+    pen +=1
+
+# used function
+my_Pen(5)
+#output = 5
