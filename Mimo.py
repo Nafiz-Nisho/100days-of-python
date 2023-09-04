@@ -343,122 +343,122 @@
 
 # FUNCTION 
 
-# Reusing Code with Functions
-def Al_nsser():
-    print("Live Now")
-Al_nsser()
+# # Reusing Code with Functions
+# def Al_nsser():
+#     print("Live Now")
+# Al_nsser()
 # output: Live Now
 
 # Creating Parameters
 
 # structure
-def greet(name):
-  print(f"Hello, {name}")
+# def greet(name):
+#   print(f"Hello, {name}")
 # func call
-greet("Nisho")
+# greet("Nisho")
 # output: Hello Nisho
 
 # example : 2
-def user_status():
-  username = "habib"
-  status = "active"
-  print(f" {username} is {status}")
-user_status()
+# def user_status():
+#   username = "habib"
+#   status = "active"
+#   print(f" {username} is {status}")
+# user_status()
 
 # # Returning Values
 
-def age_label(age):
-  label = "User age: " + age
-  return label
-print(age_label("22"))
+# def age_label(age):
+#   label = "User age: " + age
+#   return label
+# print(age_label("22"))
 # user age 22
 
 # # Using Multiple Parameters
-def display(first,last):
-  print(first + " " + last)
-display("Alex", "Morgan")
+# def display(first,last):
+#   print(first + " " + last)
+# display("Alex", "Morgan")
 
-# Understanding Functions
-def get_final_price(price , tax , discount):
-  return price + tax - discount
+# # Understanding Functions
+# def get_final_price(price , tax , discount):
+#   return price + tax - discount
 
-Apex_shoes = get_final_price(10 , 5 , 3)
-print(f" Price : {Apex_shoes}")
-# output : 12
+# Apex_shoes = get_final_price(10 , 5 , 3)
+# print(f" Price : {Apex_shoes}")
+# # output : 12
 
 # function and scope
 
-def apply_discount(price):
-  discount = 20
-# this is called scope
-  discount = 10
-  return price - discount
+# def apply_discount(price):
+#   discount = 20
+# # this is called scope
+#   discount = 10
+#   return price - discount
 
-final_price = apply_discount(50)
-print(final_price)
-# output = 40
+# final_price = apply_discount(50)
+# print(final_price)
+# # output = 40
 
 # Functions and Variable Scope
 
 # Gloabal scope >
-avarage_age = 100
-def future_age(less):
-  # Local scope >
-  accident_age = 10
-  return avarage_age - less - accident_age
-find_age = future_age(30)
-print(find_age)
+# avarage_age = 100
+# def future_age(less):
+#   # Local scope >
+#   accident_age = 10
+#   return avarage_age - less - accident_age
+# find_age = future_age(30)
+# print(find_age)
 # output = 60
 
 
 # Deciding with Functions
-def total_cart(cart):
-  if cart < 100:
-    gift_card = 20
-    return cart + gift_card
-  else:
-    print("not available")
+# def total_cart(cart):
+#   if cart < 100:
+#     gift_card = 20
+#     return cart + gift_card
+#   else:
+#     print("not available")
   
-My_shopping_cart = 50
-gift_With_card = total_cart(My_shopping_cart)
-print(gift_With_card)
+# My_shopping_cart = 50
+# gift_With_card = total_cart(My_shopping_cart)
+# print(gift_With_card)
 # output = 70
 
 # function with list
 # using index[] in function
 
 # example : 1 
-def get_winner(top_player):
-  Player = top_player[0]
-  return Player
+# def get_winner(top_player):
+#   Player = top_player[0]
+#   return Player
 
-Player_List = ["Jay", "Meg", "Cy"]
-result = get_winner(Player_List)
-print(f"Winner Player is : {result}")
+# Player_List = ["Jay", "Meg", "Cy"]
+# result = get_winner(Player_List)
+# print(f"Winner Player is : {result}")
 
 # Function With Loops 
 
 # Whil()
-def id_number(count):
-  pen = 100
-  while pen == count:
+# def id_number(count):
+#   pen = 100
+#   while pen == count:
     # condition is True
-    print( f" Your id Number is : {pen}")
+    # print( f" Your id Number is : {pen}")
     # increment >>
-    pen +=1
+    # pen +=1
 
 # used function
 # for user
-id_number(100)
+# id_number(100)
 #output =  Your id Number is : 100
 
 # For() used range
-def show_notifications(messages):
- for i in range(messages):
-  print("Failed to send message")
+# def show_notifications(messages):
+#  for i in range(messages):
+#   print("Failed to send message")
 
 # using function
-show_notifications(3)
+# show_notifications(3)
 
 # output = (3 time)
 # Failed to send message
@@ -466,14 +466,55 @@ show_notifications(3)
 # Failed to send message
 
 # Best Example
-def halve_prices(cart):
- for price in cart:
-  print(f"New price: {price/2}")
+# def halve_prices(cart):
+#  for price in cart:
+#   print(f"New price: {price/2}")
 
 # using function
-cart_list = [5, 20, 8]
-halve_prices(cart_list)
+# cart_list = [5, 20, 8]
+# halve_prices(cart_list)
 # Output:
 # New price: 2.5
 # New price: 10.0
 # New price: 4.0
+
+
+# Project
+# Number Analyzer
+# def check_odd_even(number):
+# 	if number%2 == 0:
+# 		print(f'{number} is an even number')
+# 	else:
+# 		print(f'{number} is an odd number')
+
+# def get_factors(number):
+# 	factors = []
+# 	iteration_index = 1
+# 	while iteration_index <= number:
+# 		if number%iteration_index == 0:
+# 			factors.append(iteration_index)
+# 		iteration_index += 1
+# 	print(f'The factors of {number} are: {factors}')
+# 	return factors
+
+
+# def check_prime(number,factors):
+# 	if len(factors) == 2:
+# 		print(f'{number} is a prime number')
+# 	else:
+# 		print(f'{number} is not a prime number')
+
+# def analyze_number(number):
+# 	check_odd_even(number)
+# 	factors = get_factors(number)
+# 	check_prime(number,factors)
+
+# analyze_number(43)
+# output = 43 is a prime number
+
+
+
+# Tuples, Dictionaries, and Sets
+# Identify the correct data structures to store data
+
+
