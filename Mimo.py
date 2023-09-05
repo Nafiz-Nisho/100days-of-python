@@ -517,4 +517,9 @@
 # Tuples, Dictionaries, and Sets
 # Identify the correct data structures to store data
 
+# tuples
+my_Movie_list = ("Fight club", "The Prestige", "The Dark Knight")
+
+# print
+print(my_Movie_list)
 
