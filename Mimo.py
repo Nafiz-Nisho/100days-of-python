@@ -517,9 +517,17 @@
 # Tuples, Dictionaries, and Sets
 # Identify the correct data structures to store data
 
-# tuples
-my_Movie_list = ("Fight club", "The Prestige", "The Dark Knight")
-
+# How to Write Tuples
+india_Vs_england = [("viart" , "Rohit"), ("Ben Stockes" , "Joe root")]
 # print
-print(my_Movie_list)
+print(india_Vs_england)
+# output : [('viart', 'Rohit'), ('Ben Stockes', 'Joe root')]
 
+# Notes
+# ::We say that tuples are immutable, since trying to modify them like here with event_tuple[0] = "Friday"
+#  results in an error.
+
+# event_tuple = ("Saturday", "21:00", "Anna's Bday")
+# event_tuple[0]="Friday"
+
+# Output: TypeError: 'tuple' object does not support item assignment
