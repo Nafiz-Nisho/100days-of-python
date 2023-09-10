@@ -518,9 +518,9 @@
 # Identify the correct data structures to store data
 
 # How to Write Tuples
-india_Vs_england = [("viart" , "Rohit"), ("Ben Stockes" , "Joe root")]
+# india_Vs_england = [("viart" , "Rohit"), ("Ben Stockes" , "Joe root")]
 # print
-print(india_Vs_england)
+# print(india_Vs_england)
 # output : [('viart', 'Rohit'), ('Ben Stockes', 'Joe root')]
 
 # Notes
@@ -531,3 +531,34 @@ print(india_Vs_england)
 # event_tuple[0]="Friday"
 
 # Output: TypeError: 'tuple' object does not support item assignment
+
+# Creating Dictionaries{}
+
+# EXAMPLE = 1
+# simple variable print
+information = "nafiz", "age" , "roll"
+print(information)
+#  output = ('nafiz', 'age', 'roll')
+# but using Dictionaries{}
+information = { "names" : "nafiz" , "age": 19 , "roll" : 1232}
+# print(information)
+# using dictionaries benifit
+print(information["roll"])
+# output = 1232
+
+def for_dictionary(a):
+    print(f" Search result:{a}")
+
+information = { "names" : "nafiz" , "age": 19 , "roll" : 1232}
+store = for_dictionary(information["names"])
+print(store)
+
+# output = Search result: nafiz
+
+# Key{}
+# what is key ?
+varibale_For_Key = {
+    "names":"nafiz",
+    # "names is Key
+}
+print(varibale_For_Key)
