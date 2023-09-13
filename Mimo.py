@@ -562,3 +562,68 @@ varibale_For_Key = {
     # "names is Key
 }
 print(varibale_For_Key)
+
+
+
+def key_notification(a):
+    print(f" Your Key is : {a}")
+
+my_key = {
+    "key_1": "14344234",
+    "key_2": "177564666",
+    "key_3": "5757434666",
+    "origin_key":["7466636466" , "5757456466" , "5734366364366" , "7563424243463"]
+}
+
+# print key for i need
+key_notification(my_key["key_1"])
+
+# usig loop
+
+# funtcion for hotline number:
+def info_Hotline(a):
+    print(f"BD Hotline Number is: {a}")
+
+Hotline_No = {
+    "number_1":123,
+    "number_2":121,
+    "number_3": 1670,
+    "number_4": 999,
+    "number_5":1672
+}
+for hotline in Hotline_No:
+    info_Hotline(Hotline_No[hotline])
+
+# How to Update key:
+participants = {
+  "Meg": True,
+  "Kim": False,
+}
+# after: "Meg": True, "Kim": False,
+#then update
+participants["Kim"] = True
+print(participants)
+# output: {'Meg': True, 'Kim': True}
+
+# how to add Key in Dictionary"s
+
+my_dictionary = {
+    "movie": "Get out"
+}
+# after = {movie': 'Get out}
+# but
+# i want add anther key in my dictionary"s
+my_dictionary["IMDB"] = 9.1
+print(my_dictionary)
+
+# output: {'movie': 'Get out', 'IMDB': 9.1}
+
+# using dictionary
+# using in():condition
+my_cart = {
+    "apple":"buy",
+    "Milk":"buy",
+    "noodls":"buy"
+}
+# calling in()
+print("apple" in my_cart)
