@@ -618,7 +618,7 @@ print(my_dictionary)
 
 # output: {'movie': 'Get out', 'IMDB': 9.1}
 
-# using dictionary
+# checking dictionary
 # using in():condition
 my_cart = {
     "apple":"buy",
@@ -627,3 +627,33 @@ my_cart = {
 }
 # calling in()
 print("apple" in my_cart)
+
+# Remove dictonary/Key using .pop()
+my_app = {
+"Google Chrome":"",
+"Youtube":"",
+"Netflix":"",
+"Games":""
+}
+# using .pop()
+my_app.pop("Games")
+print(my_app)
+# output: 'Google Chrome': '', 'Youtube': '', 'Netflix': '': Games is removed.
+
+# Creating Sets
+postcodes = {"SW1A", "SY3", "B44"}
+print(postcodes)
+
+# Sets Add.()
+postcodes = {"SW1A", "SY3", "B44"}
+postcodes.add("BBL")
+print(postcodes)
+# output: 'SY3', 'B44', 'SW1A', 'BBL: add BBL
+
+# Sets and Lists
+# remove duplicate set()
+my_team = {"Habib", "Rishad", "Al Mahmdub", "Tonmoy", "Habib"}
+# after: "Habib", "Rishad", "Al Mahmdub", "Tonmoy", "Habib"
+set(my_team)
+print(my_team)
+# before: 'Habib', 'Tonmoy', 'Rishad', 'Al Mahmdub: duble habib is removed.
