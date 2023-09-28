@@ -536,124 +536,199 @@
 
 # EXAMPLE = 1
 # simple variable print
-information = "nafiz", "age" , "roll"
-print(information)
-#  output = ('nafiz', 'age', 'roll')
-# but using Dictionaries{}
-information = { "names" : "nafiz" , "age": 19 , "roll" : 1232}
+# information = "nafiz", "age" , "roll"
 # print(information)
-# using dictionaries benifit
-print(information["roll"])
-# output = 1232
+# #  output = ('nafiz', 'age', 'roll')
+# # but using Dictionaries{}
+# information = { "names" : "nafiz" , "age": 19 , "roll" : 1232}
+# # print(information)
+# # using dictionaries benifit
+# print(information["roll"])
+# # output = 1232
 
-def for_dictionary(a):
-    print(f" Search result:{a}")
+# def for_dictionary(a):
+#     print(f" Search result:{a}")
 
-information = { "names" : "nafiz" , "age": 19 , "roll" : 1232}
-store = for_dictionary(information["names"])
-print(store)
+# information = { "names" : "nafiz" , "age": 19 , "roll" : 1232}
+# store = for_dictionary(information["names"])
+# print(store)
 
-# output = Search result: nafiz
+# # output = Search result: nafiz
 
-# Key{}
-# what is key ?
-varibale_For_Key = {
-    "names":"nafiz",
-    # "names is Key
-}
-print(varibale_For_Key)
+# # Key{}
+# # what is key ?
+# varibale_For_Key = {
+#     "names":"nafiz",
+#     # "names is Key
+# }
+# print(varibale_For_Key)
 
 
 
-def key_notification(a):
-    print(f" Your Key is : {a}")
+# def key_notification(a):
+#     print(f" Your Key is : {a}")
 
-my_key = {
-    "key_1": "14344234",
-    "key_2": "177564666",
-    "key_3": "5757434666",
-    "origin_key":["7466636466" , "5757456466" , "5734366364366" , "7563424243463"]
-}
+# my_key = {
+#     "key_1": "14344234",
+#     "key_2": "177564666",
+#     "key_3": "5757434666",
+#     "origin_key":["7466636466" , "5757456466" , "5734366364366" , "7563424243463"]
+# }
 
-# print key for i need
-key_notification(my_key["key_1"])
+# # print key for i need
+# key_notification(my_key["key_1"])
 
-# usig loop
+# # usig loop
 
-# funtcion for hotline number:
-def info_Hotline(a):
-    print(f"BD Hotline Number is: {a}")
+# # funtcion for hotline number:
+# def info_Hotline(a):
+#     print(f"BD Hotline Number is: {a}")
 
-Hotline_No = {
-    "number_1":123,
-    "number_2":121,
-    "number_3": 1670,
-    "number_4": 999,
-    "number_5":1672
-}
-for hotline in Hotline_No:
-    info_Hotline(Hotline_No[hotline])
+# Hotline_No = {
+#     "number_1":123,
+#     "number_2":121,
+#     "number_3": 1670,
+#     "number_4": 999,
+#     "number_5":1672
+# }
+# for hotline in Hotline_No:
+#     info_Hotline(Hotline_No[hotline])
 
-# How to Update key:
-participants = {
-  "Meg": True,
-  "Kim": False,
-}
-# after: "Meg": True, "Kim": False,
-#then update
-participants["Kim"] = True
-print(participants)
-# output: {'Meg': True, 'Kim': True}
+# # How to Update key:
+# participants = {
+#   "Meg": True,
+#   "Kim": False,
+# }
+# # after: "Meg": True, "Kim": False,
+# #then update
+# participants["Kim"] = True
+# print(participants)
+# # output: {'Meg': True, 'Kim': True}
 
-# how to add Key in Dictionary"s
+# # how to add Key in Dictionary"s
 
-my_dictionary = {
-    "movie": "Get out"
-}
-# after = {movie': 'Get out}
-# but
-# i want add anther key in my dictionary"s
-my_dictionary["IMDB"] = 9.1
-print(my_dictionary)
+# my_dictionary = {
+#     "movie": "Get out"
+# }
+# # after = {movie': 'Get out}
+# # but
+# # i want add anther key in my dictionary"s
+# my_dictionary["IMDB"] = 9.1
+# print(my_dictionary)
 
-# output: {'movie': 'Get out', 'IMDB': 9.1}
+# # output: {'movie': 'Get out', 'IMDB': 9.1}
 
-# checking dictionary
-# using in():condition
-my_cart = {
-    "apple":"buy",
-    "Milk":"buy",
-    "noodls":"buy"
-}
-# calling in()
-print("apple" in my_cart)
+# # checking dictionary
+# # using in():condition
+# my_cart = {
+#     "apple":"buy",
+#     "Milk":"buy",
+#     "noodls":"buy"
+# }
+# # calling in()
+# print("apple" in my_cart)
 
-# Remove dictonary/Key using .pop()
-my_app = {
-"Google Chrome":"",
-"Youtube":"",
-"Netflix":"",
-"Games":""
-}
-# using .pop()
-my_app.pop("Games")
-print(my_app)
-# output: 'Google Chrome': '', 'Youtube': '', 'Netflix': '': Games is removed.
+# # Remove dictonary/Key using .pop()
+# my_app = {
+# "Google Chrome":"",
+# "Youtube":"",
+# "Netflix":"",
+# "Games":""
+# }
+# # using .pop()
+# my_app.pop("Games")
+# print(my_app)
+# # output: 'Google Chrome': '', 'Youtube': '', 'Netflix': '': Games is removed.
 
-# Creating Sets
-postcodes = {"SW1A", "SY3", "B44"}
-print(postcodes)
+# # Creating Sets
+# postcodes = {"SW1A", "SY3", "B44"}
+# print(postcodes)
 
-# Sets Add.()
-postcodes = {"SW1A", "SY3", "B44"}
-postcodes.add("BBL")
-print(postcodes)
-# output: 'SY3', 'B44', 'SW1A', 'BBL: add BBL
+# # Sets Add.()
+# postcodes = {"SW1A", "SY3", "B44"}
+# postcodes.add("BBL")
+# print(postcodes)
+# # output: 'SY3', 'B44', 'SW1A', 'BBL: add BBL
 
-# Sets and Lists
-# remove duplicate set()
-my_team = {"Habib", "Rishad", "Al Mahmdub", "Tonmoy", "Habib"}
-# after: "Habib", "Rishad", "Al Mahmdub", "Tonmoy", "Habib"
-set(my_team)
-print(my_team)
-# before: 'Habib', 'Tonmoy', 'Rishad', 'Al Mahmdub: duble habib is removed.
+# # Sets and Lists
+# # remove duplicate set()
+# my_team = {"Habib", "Rishad", "Al Mahmdub", "Tonmoy", "Habib"}
+# # after: "Habib", "Rishad", "Al Mahmdub", "Tonmoy", "Habib"
+# set(my_team)
+# print(my_team)
+# # before: 'Habib', 'Tonmoy', 'Rishad', 'Al Mahmdub: duble habib is removed.
+
+# # Set operators(issubset)
+# my_friends = { "habib" , "rohan" , "javed" , "karim"}
+# group_study = {"urmila" ,"jihadi"}
+# joining_All = group_study.issubset(my_friends)
+# print(joining_All)
+# # output = False
+
+# # union() everybody
+# my_school_frined = { "Emon", "imrul", "habib"}
+# my_collage_friend = {"Emon" , "habib" , "imrul"}
+
+# all_friend = my_collage_friend.union(my_school_frined)
+# print(all_friend)
+
+# # output: {'imrul', 'habib', 'Emon'} : duplicate names is removed>
+
+# # intersection() Common
+
+# my_school_frined = {"Eomon", "imrul", "emdadul"}
+# my_collage_friend = {"Emon", "habib", "imrul"}
+
+# all_friend = my_collage_friend.intersection(my_school_frined)
+# print(all_friend)
+# # output: {'imrul'} : Common
+
+# # difference()
+# My_family = { "doctor" , "Enginner" , "Worker"}
+# her_family = { "doctor" , "Enginner" , "President"}
+# # Let's try to find out what will be the difference between 2 sets My_Family and her_family
+# compare_2_family = her_family.difference(My_family)
+# print(compare_2_family)
+# # output : President
+
+# # Example 2
+# Drinks_order_1 = { "7up", "Cocacola", "Pran foto"}
+# Drinks_order_2 = {"Pizza" , "Cocacola", "Pran foto"}
+
+# check_not_Drinks = Drinks_order_2.difference(Drinks_order_1)
+# print(check_not_Drinks)
+# # output: {'Pizza'} : Pizza is not drinks
+
+# # Convert Arrey to Set()
+# iris_species = ["setosa", "siberian"]
+# # ["setosa", "siberian"]
+# # let convert.......
+# make = set(iris_species)
+# print(make)
+# output :{'setosa', 'siberian'}
+
+# Desktop Projet - Libery
+# hamlet_info = ("William Shakespeare", "Tragedy", 1603)
+# martian_chronicles_info =  ("Ray Bradbury", "Science fiction", 1950)
+
+# my_books = {
+# 	"Hamlet": hamlet_info,
+# 	"The Martian Chronicles": martian_chronicles_info
+# }
+# print(f"My books: {my_books}")
+
+# my_books["Fahrenheit 451"] = ("Ray Bradbury", "Dystopian", 1953)
+# print(f"Fahrenheit 451 info: {my_books['Fahrenheit 451']}")
+
+# my_books_authors = set()
+
+# for book in my_books:
+# 	book_info = my_books[book]
+# 	author = book_info[0]
+# 	my_books_authors.add(author)
+# print(f"Authors: {my_books_authors}")
+
+# is_my_author = "Ray Bradbury" in my_books_authors
+
+# if is_my_author:
+# 	print("Ray Bradbury belongs to my authors!")
