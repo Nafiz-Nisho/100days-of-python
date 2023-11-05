@@ -8,6 +8,19 @@
 # encapsulating data for the object, and methods to manipulate the data.
 # "class as a recipe for creating objects"
 
+# How to create Class 
+class student:
+    pass
+# -----------------
+
+# How to create object
+
+# variables = class_name
+student_1 = student()
+print(student_1)
+
+# ----------------------
+
 # Python None-Paramiterized constructor()
 class Employee:
    # Mathod
@@ -45,4 +58,25 @@ print(person1.name)
 
 # So Class is Employee >>>> Employee is created object >>> preson1 is object.
 
-  
+# -----------------------------------------------------------------------------
+# Class mean blue print, is creating design...
+class student:
+    def __init__(self, name, Id_NB):
+        # store in varibales
+        self.student_name = name
+        self.student_id = Id_NB
+        
+
+
+# Object is creating....
+info_1 = student("Habib", 337501)
+info_2 = student("Rashed", 33739)
+
+
+# object printing...
+print(info_1.student_name)
+print(info_2.student_name)
+
+# object Output:
+#  Habib
+# Rashed
