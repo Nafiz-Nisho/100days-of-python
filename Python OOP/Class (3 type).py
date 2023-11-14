@@ -28,22 +28,41 @@ Pc_2.details()
 
 # ------------------------------------------------------------------------------------------------------------------------------------------------
 
+#Explain 2:
+# what is do?
+# i want compare 2 Cats activity.
+
+class Cat:
+  def __init__(self, color, action):
+    self.color = color
+    self.action = action
+
+  def view(self):
+    print(self.color, "cat is", self.action)
+
+
+  def compare(self, ct):
+    if self.action == ct.action:
+      print("both cat are jumping")
+    else:
+      print("They are different")
+
+
+cat1 = Cat("whit", "jumping")
+cat2 = Cat("black", "eating")
+cat1.view()
+cat2.view()
+
+cat1.compare(cat2)
+# OUTPUT : They are defferent
+# -------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Method Overloading*
+# Constructor Overloading*
+# Operator Overloadding*
+# Encapsulation*
+
+# ---------------------------------------------------------------------------------------------------------------------------------------------------
 # Type - 2 Class mathod*
-class Employe:
-  org_name = "Google"
-  def __init__(self, name):
-    self.name = name
-# create class mathod (Decorator)
-  @classmethod
-  def info(cls):
-   return cls.org_name
-  
-print(Employe.info())
-# output "Google" : Now No need extra object create
 
 # Type -3  Static mathod*
-
-
-
-
-

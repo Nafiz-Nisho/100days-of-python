@@ -764,11 +764,3 @@ scores = [12, 47, 30, 29, 19, 35]
 high_scores = [ score for score in scores if score > 20 ]
 print(high_scores)
 # output : [47, 30, 29, 35]
-
-# Note : Classes
-        #  Object-Oriented Programming
-        # Libraries Modules
-        # Error and Exceptions
-
-# Explain in Python OPP Folder >>>>>>
-
