@@ -1,4 +1,3 @@
-
 # Class
 
 # what is class? 
@@ -7,6 +6,14 @@
 # class in Python is a blueprint for creating objects, 
 # encapsulating data for the object, and methods to manipulate the data.
 # "class as a recipe for creating objects"
+
+# Why are classes needed?
+# EXPLAIN:
+# Classes provide a means of bundling data and functionality together.
+#  Creating a new class creates a new type of object, allowing new instances of that type
+#  to be made. Each class instance can have attributes attached to it for maintaining its state.
+# It provides template for creating objects, which can bind code into data
+
 
 # How to create Class 
 class student:
@@ -21,7 +28,7 @@ print(student_1)
 
 # ----------------------
 
-# Python None-Paramiterized constructor()
+# Python None-Paramiterized constructor() *
 class Employee:
    # Mathod
    def __init__(self):
@@ -35,7 +42,7 @@ Employee_2 = Employee()
 # Emloyee is created
 
 
-# Python Paramiterized constructor()
+# Python Paramiterized constructor() *
 class Employee:
       # Mathod
     def __init__(self, name, age):
@@ -80,3 +87,24 @@ print(info_2.student_name)
 # object Output:
 #  Habib
 # Rashed
+
+# fianl example *
+
+class My_class:
+  # mathod
+  def __init__(self, a, b):
+    self.a = a
+    self.b = b
+    # instance mathod
+  def avg(self):
+    print((self.a + self.b))
+    # tamplate or blue print is ready.
+
+
+# make a object
+
+m_1 = My_class(20, 35)
+m_1.avg()
+# output = 55
+
+
